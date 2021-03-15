@@ -6,7 +6,7 @@
 
 double Pyro::execute() {
     auto startTime = std::chrono::system_clock::now();
-    //dds
+
     auto relation = ColumnLayoutRelationData::createFrom(inputGenerator_, configuration_.isNullEqualNull);
     auto schema = relation->getSchema();
 
