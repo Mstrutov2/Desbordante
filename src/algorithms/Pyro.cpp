@@ -10,6 +10,8 @@ double Pyro::execute() {
     auto relation = ColumnLayoutRelationData::createFrom(inputGenerator_, configuration_.isNullEqualNull);
     auto schema = relation->getSchema();
 
+    // fdafafafa
+
     auto profilingContext = std::make_shared<ProfilingContext>(
             configuration_,
             relation,
